@@ -22,7 +22,7 @@ const ProductDetails = (props) => {
                 <p className={styles.description}>{description}</p>
                 <p className={styles.category}><span>Category:</span> {category}</p>
                 <div className={styles.buttonContainer}>
-                    <span className={styles.price}>{price} $</span>
+                    <span className={styles.price}>$ {price}</span>
                     <Link to="/products">Back to Shop</Link>
                 </div>
             </div>
